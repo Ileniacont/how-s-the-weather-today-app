@@ -80,6 +80,10 @@ function showWeatherReport(weather){
       } else if(weatherType.textContent == 'Mist') {
 
           document.body.style.backgroundImage = "url('images/fog.jpg')";
+          
+            } else if(weatherType.textContent == 'Smoke') {
+
+          document.body.style.backgroundImage = "url('images/fog.jpg')";
 
         } else if(weatherType.textContent == 'Wind') {
 
